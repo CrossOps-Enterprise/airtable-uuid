@@ -1,0 +1,23 @@
+{
+  "name": "airtable-uuid",
+  "version": "1.0.3",
+  "description": "Generate airtable record uuid from cli or by require",
+  "main": "index.js",
+  "bin": {
+    "airtable-uuid": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "airtable",
+    "uuid"
+  ],
+  "author": "Umair Bajwa",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Umair Bajwa",
+      "email": "umairahmedbajwa97@gmail.com",
+      "url": "https://github.com/umairx97/"
+    }
+  ]
+}
