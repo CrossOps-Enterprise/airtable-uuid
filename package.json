@@ -1,8 +1,11 @@
 {
   "name": "airtable-uuid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate airtable record uuid from cli or by require",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/CrossOps-Enterprise/airtable-uuid"
+  },
   "bin": {
     "airtable-uuid": "./index.js"
   },
