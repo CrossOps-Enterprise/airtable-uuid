@@ -1,6 +1,6 @@
 # Airtable Record UUID Generator
 Generate airtable record uuid from cli or by requiring it in node.
-Inspired by [Cuid](https://github.com/ericelliott/cuid/blob/master/package.json)
+Inspired by [Cuid](https://github.com/ericelliott/cuid)
 ## Usage:
 
 if NPM >= 5.0
