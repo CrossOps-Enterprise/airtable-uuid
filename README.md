@@ -22,7 +22,6 @@ const uuid = generate()
 console.log(uuid) // recl2mht2j000VGSD
 console.log(isRecordId(uuid)) // true
 ```
-OR
 
 ## Author:
 [umairx97](https://github.com/umairx97)
