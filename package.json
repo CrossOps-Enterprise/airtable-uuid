@@ -1,6 +1,6 @@
 {
   "name": "airtable-uuid",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generate airtable record uuid from cli or by require",
   "main": "index.js",
   "repository": {
