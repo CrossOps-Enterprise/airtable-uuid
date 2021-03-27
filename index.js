@@ -5,7 +5,7 @@ const PREFIX = 'rec'
 
 module.exports = {
   generate: airtable,
-  isRecordId: airtable.isRecordId
+  isRecordId
 }
 
 function airtable () {
@@ -18,9 +18,9 @@ function airtable () {
   return PREFIX + timestamp + counter + fingerPrint
 }
 
-airtable.isRecordId = function (uuid) {
+function isRecordId (uuid) {
   if (typeof uuid !== 'string') return false
-  if (uuid.startsWith === PREFIX) return true
+  if (uuid.startsWith(PREFIX)) return true
 
   return false
 }
