@@ -1,6 +1,6 @@
 {
   "name": "airtable-uuid",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Generate airtable record uuid from cli or by require",
   "main": "index.js",
   "repository": {
@@ -22,5 +22,8 @@
       "email": "umairahmedbajwa97@gmail.com",
       "url": "https://github.com/umairx97/"
     }
-  ]
+  ],
+  "dependencies": {
+    "cuid": "^2.1.8"
+  }
 }
